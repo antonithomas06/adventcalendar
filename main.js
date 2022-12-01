@@ -17,6 +17,7 @@ const openDoor = (path, event) => {
     else{
         event.target.style.backgroundColor = "#F3f321";
         event.target.innerHTML = "TO SOON";
+        event.target.style.textAlign = "center"
     }
 }
 
